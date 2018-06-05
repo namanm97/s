@@ -1,0 +1,14 @@
+COPY START 0
+- CLEAR A
+- LDA &A
+- ADD &B
+- STA &C
+- LDA &A
+- ADD &B
+- STA &C
+F3 RESW 1
+F2 WORD 3
+F1 WORD 5
+F4 WORD 4
+F5 RESW 1
+- END -
