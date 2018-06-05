@@ -48,7 +48,7 @@ int main()
       else if(opcode == macroname)
       {
         if(label != "-")
-        f2<<label;
+             d[0].label=label;
         for(i=0;i<lines;i++)
         {
           f2<<d[i].label<<" "<<d[i].opcode<<" "<<d[i].operand<<endl;
